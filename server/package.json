@@ -1,0 +1,15 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Backend Server for Collaborate",
+  "main": "index.js",
+  "dependencies": {
+    "gitignore": "^0.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Priya Vaidya",
+  "license": "MIT"
+}
