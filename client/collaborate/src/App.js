@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <h1>Collaborate</h1>
+        <h4>Collaborate</h4>
         <Switch>
           <Route exact path='/' component={Register} />
           <Route exact path='/login' component={Login} />
