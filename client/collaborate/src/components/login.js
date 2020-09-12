@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import Copyright from './Copyright';
 
 
-
 // MUI Imports
 import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
@@ -76,12 +75,12 @@ export default function Login() {
                     <LockOutlinedIcon />
                 </Avatar>
                 <Typography component="h1" variant="h5">
-                    Sign into your account!
+                    Sign In to Start Collaborating! 
                 </Typography>
                 <form className={classes.form} onSubmit={e => onSubmit(e)}>
                     <TextField
                         required
-                        fullWidth
+                        fullWidth="true"
                         label="Username"
                         variant="outlined"
                         value={credentials.username}
@@ -90,7 +89,7 @@ export default function Login() {
                         onChange={e => onChange(e)}
                         />
                     <TextField
-                            fullWidth
+                            fullWidth="true"
                                 required
                                 label="Password"
                                 variant="outlined"

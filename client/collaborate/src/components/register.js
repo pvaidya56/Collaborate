@@ -76,12 +76,12 @@ export default function Register() {
                     <LockOutlinedIcon />
                 </Avatar>
                 <Typography component="h1" variant="h5">
-                    Join Collaborate today to start effectively planning your projects!
+                    Get Started with Collaborate! - It's FREE!
                 </Typography>
                 <form className={classes.form} onSubmit={e => onSubmit(e)}>
                     <TextField
                         required
-                        fullWidth
+                        fullWidth="true"
                         label="Username"
                         variant="outlined"
                         value={user.username}
@@ -90,7 +90,7 @@ export default function Register() {
                         onChange={e => onChange(e)}
                     />
                             <TextField
-                            fullWidth
+                            fullWidth="true"
                                 required
                                 label="Email"
                                 margin="normal"
@@ -101,7 +101,7 @@ export default function Register() {
                                 onChange={e => onChange(e)}
                             />
                             <TextField
-                            fullWidth
+                            fullWidth="true"
                                 required
                                 label="Password"
                                 variant="outlined"
